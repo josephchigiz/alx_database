@@ -1,3 +1,3 @@
--- delete schema if present, script should not fail if schema doesn't exist
+-- delete schema if present, script should not fail if schema doesn't exit
 
-DELETE SCHEMA IF EXISTS hbtn_0c_0;
+DROP SCHEMA IF EXISTS hbtn_0c_0;

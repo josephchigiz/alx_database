@@ -2,4 +2,5 @@
 
 USE hbtn_0c_0;
 
-SELECT * FROM first_table;
+SELECT * FROM information_schema.COLUMNS
+WHERE table=first_table;

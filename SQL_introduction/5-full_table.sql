@@ -3,4 +3,4 @@
 USE hbtn_0c_0;
 
 SELECT * FROM information_schema.COLUMNS
-WHERE table=first_table;
+WHERE TABLE_NAME='first_table';
